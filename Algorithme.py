@@ -78,11 +78,17 @@ def computeVV(Q, R):
 	return eVectors, eValues
 
 # Outputs the given arguments to "output.txt". #
-def outputResults(eVectors, eValues):
+def outputResults(eVectors, eValues, Q, R):
 	f = open('output.txt', 'w')
 	f.write("EIGENVECTORS:\n")
 	f.write(str(eVectors) + "\n\n")
 	f.write("-----------------------\n\n")
 	f.write("EIGENVALUES:\n")
-	f.write(str(eValues))
+	f.write(str(eValues) + "\n\n")
+	f.write("-----------------------\n\n")
+	f.write("Q:\n")
+	f.write(str(Q) + "\n\n")
+	f.write("-----------------------\n\n")
+	f.write("R:\n")
+	f.write(str(R))
 	f.close()

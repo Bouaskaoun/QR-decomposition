@@ -4,5 +4,5 @@ In linear algebra, a QR decomposition, also known as a QR factorization or QU fa
 
 
 <p align="center">
-  <img src="QRdecomposition.png" alt="QRdecomposition" />
+  <img src="QR.jpeg" alt="QRdecomposition" />
 </p>
